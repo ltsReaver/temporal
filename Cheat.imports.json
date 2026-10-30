@@ -1,0 +1,2508 @@
+[
+    {
+        "function": "GetTokenInformation",
+        "iat_rva": 2187264,
+        "is_ordinal": false,
+        "module": "advapi32.dll",
+        "ordinal": 1349
+    },
+    {
+        "function": "AdjustTokenPrivileges",
+        "iat_rva": 2187272,
+        "is_ordinal": false,
+        "module": "advapi32.dll",
+        "ordinal": 1033
+    },
+    {
+        "function": "LookupPrivilegeValueW",
+        "iat_rva": 2187280,
+        "is_ordinal": false,
+        "module": "advapi32.dll",
+        "ordinal": 1413
+    },
+    {
+        "function": "ConvertSidToStringSidA",
+        "iat_rva": 2187288,
+        "is_ordinal": false,
+        "module": "advapi32.dll",
+        "ordinal": 1124
+    },
+    {
+        "function": "OpenProcessToken",
+        "iat_rva": 2187296,
+        "is_ordinal": false,
+        "module": "advapi32.dll",
+        "ordinal": 1530
+    },
+    {
+        "function": "GetOpenFileNameA",
+        "iat_rva": 2187312,
+        "is_ordinal": false,
+        "module": "comdlg32.dll",
+        "ordinal": 113
+    },
+    {
+        "function": "D3DCompile",
+        "iat_rva": 2187328,
+        "is_ordinal": false,
+        "module": "d3dcompiler_47.dll",
+        "ordinal": 3
+    },
+    {
+        "function": "CreateRectRgn",
+        "iat_rva": 2187344,
+        "is_ordinal": false,
+        "module": "gdi32.dll",
+        "ordinal": 1097
+    },
+    {
+        "function": "DeleteObject",
+        "iat_rva": 2187352,
+        "is_ordinal": false,
+        "module": "gdi32.dll",
+        "ordinal": 1420
+    },
+    {
+        "function": "ImmSetCompositionWindow",
+        "iat_rva": 2187368,
+        "is_ordinal": false,
+        "module": "imm32.dll",
+        "ordinal": 124
+    },
+    {
+        "function": "ImmReleaseContext",
+        "iat_rva": 2187376,
+        "is_ordinal": false,
+        "module": "imm32.dll",
+        "ordinal": 115
+    },
+    {
+        "function": "ImmGetContext",
+        "iat_rva": 2187384,
+        "is_ordinal": false,
+        "module": "imm32.dll",
+        "ordinal": 75
+    },
+    {
+        "function": "ImmSetCandidateWindow",
+        "iat_rva": 2187392,
+        "is_ordinal": false,
+        "module": "imm32.dll",
+        "ordinal": 119
+    },
+    {
+        "function": "CreateFileW",
+        "iat_rva": 2187408,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 236
+    },
+    {
+        "function": "OpenProcess",
+        "iat_rva": 2187416,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1093
+    },
+    {
+        "function": "CreateToolhelp32Snapshot",
+        "iat_rva": 2187424,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 286
+    },
+    {
+        "function": "Sleep",
+        "iat_rva": 2187432,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1486
+    },
+    {
+        "function": "Process32NextW",
+        "iat_rva": 2187440,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1127
+    },
+    {
+        "function": "Process32FirstW",
+        "iat_rva": 2187448,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1125
+    },
+    {
+        "function": "CloseHandle",
+        "iat_rva": 2187456,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 163
+    },
+    {
+        "function": "K32GetModuleBaseNameA",
+        "iat_rva": 2187464,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 985
+    },
+    {
+        "function": "K32EnumProcessModules",
+        "iat_rva": 2187472,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 976
+    },
+    {
+        "function": "MultiByteToWideChar",
+        "iat_rva": 2187480,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1065
+    },
+    {
+        "function": "GlobalAlloc",
+        "iat_rva": 2187488,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 874
+    },
+    {
+        "function": "GlobalFree",
+        "iat_rva": 2187496,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 881
+    },
+    {
+        "function": "GlobalLock",
+        "iat_rva": 2187504,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 885
+    },
+    {
+        "function": "WideCharToMultiByte",
+        "iat_rva": 2187512,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1618
+    },
+    {
+        "function": "GlobalUnlock",
+        "iat_rva": 2187520,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 892
+    },
+    {
+        "function": "GetModuleHandleA",
+        "iat_rva": 2187528,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 680
+    },
+    {
+        "function": "GetLocaleInfoA",
+        "iat_rva": 2187536,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 661
+    },
+    {
+        "function": "LoadLibraryA",
+        "iat_rva": 2187544,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1018
+    },
+    {
+        "function": "QueryPerformanceFrequency",
+        "iat_rva": 2187552,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1160
+    },
+    {
+        "function": "GetProcAddress",
+        "iat_rva": 2187560,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 739
+    },
+    {
+        "function": "FreeLibrary",
+        "iat_rva": 2187568,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 474
+    },
+    {
+        "function": "QueryPerformanceCounter",
+        "iat_rva": 2187576,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1159
+    },
+    {
+        "function": "SetWaitableTimer",
+        "iat_rva": 2187584,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1479
+    },
+    {
+        "function": "GetCommandLineW",
+        "iat_rva": 2187592,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 518
+    },
+    {
+        "function": "SetConsoleTitleA",
+        "iat_rva": 2187600,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1359
+    },
+    {
+        "function": "CreateWaitableTimerW",
+        "iat_rva": 2187608,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 292
+    },
+    {
+        "function": "GetModuleFileNameW",
+        "iat_rva": 2187616,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 679
+    },
+    {
+        "function": "GetTempPathW",
+        "iat_rva": 2187624,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 815
+    },
+    {
+        "function": "CreateMutexW",
+        "iat_rva": 2187632,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 252
+    },
+    {
+        "function": "WaitForSingleObject",
+        "iat_rva": 2187640,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1579
+    },
+    {
+        "function": "GetLastError",
+        "iat_rva": 2187648,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 659
+    },
+    {
+        "function": "DeleteFileW",
+        "iat_rva": 2187656,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 316
+    },
+    {
+        "function": "MoveFileExW",
+        "iat_rva": 2187664,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1058
+    },
+    {
+        "function": "CreateProcessW",
+        "iat_rva": 2187672,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 264
+    },
+    {
+        "function": "CopyFileW",
+        "iat_rva": 2187680,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 203
+    },
+    {
+        "function": "GetConsoleWindow",
+        "iat_rva": 2187688,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 566
+    },
+    {
+        "function": "CreateWaitableTimerExW",
+        "iat_rva": 2187696,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 291
+    },
+    {
+        "function": "AllocConsole",
+        "iat_rva": 2187704,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 23
+    },
+    {
+        "function": "GetCurrentProcess",
+        "iat_rva": 2187712,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 583
+    },
+    {
+        "function": "SetThreadPriority",
+        "iat_rva": 2187720,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1453
+    },
+    {
+        "function": "WakeAllConditionVariable",
+        "iat_rva": 2187728,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1587
+    },
+    {
+        "function": "GetTickCount",
+        "iat_rva": 2187736,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 834
+    },
+    {
+        "function": "K32GetModuleBaseNameW",
+        "iat_rva": 2187744,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 986
+    },
+    {
+        "function": "GetSystemFirmwareTable",
+        "iat_rva": 2187752,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 793
+    },
+    {
+        "function": "LocalFree",
+        "iat_rva": 2187760,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1032
+    },
+    {
+        "function": "GetModuleFileNameA",
+        "iat_rva": 2187768,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 678
+    },
+    {
+        "function": "SizeofResource",
+        "iat_rva": 2187776,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1485
+    },
+    {
+        "function": "MoveFileA",
+        "iat_rva": 2187784,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1056
+    },
+    {
+        "function": "FindFirstFileA",
+        "iat_rva": 2187792,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 423
+    },
+    {
+        "function": "WriteFile",
+        "iat_rva": 2187800,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1638
+    },
+    {
+        "function": "FindNextFileA",
+        "iat_rva": 2187808,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 440
+    },
+    {
+        "function": "FindResourceA",
+        "iat_rva": 2187816,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 449
+    },
+    {
+        "function": "FindClose",
+        "iat_rva": 2187824,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 419
+    },
+    {
+        "function": "GetCurrentDirectoryA",
+        "iat_rva": 2187832,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 575
+    },
+    {
+        "function": "SetCurrentDirectoryA",
+        "iat_rva": 2187840,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1364
+    },
+    {
+        "function": "GetTempPathA",
+        "iat_rva": 2187848,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 814
+    },
+    {
+        "function": "GetTickCount64",
+        "iat_rva": 2187856,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 835
+    },
+    {
+        "function": "CopyFileA",
+        "iat_rva": 2187864,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 198
+    },
+    {
+        "function": "MoveFileExA",
+        "iat_rva": 2187872,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1057
+    },
+    {
+        "function": "CreateFileA",
+        "iat_rva": 2187880,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 228
+    },
+    {
+        "function": "GetCurrentThread",
+        "iat_rva": 2187888,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 587
+    },
+    {
+        "function": "LockResource",
+        "iat_rva": 2187896,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1044
+    },
+    {
+        "function": "DeleteFileA",
+        "iat_rva": 2187904,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 313
+    },
+    {
+        "function": "LoadResource",
+        "iat_rva": 2187912,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1024
+    },
+    {
+        "function": "GetCurrentProcessId",
+        "iat_rva": 2187920,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 584
+    },
+    {
+        "function": "GetModuleHandleW",
+        "iat_rva": 2187928,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 683
+    },
+    {
+        "function": "CreateDirectoryA",
+        "iat_rva": 2187936,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 213
+    },
+    {
+        "function": "GetCurrentThreadId",
+        "iat_rva": 2187944,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 588
+    },
+    {
+        "function": "FlushInstructionCache",
+        "iat_rva": 2187952,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 463
+    },
+    {
+        "function": "SetUnhandledExceptionFilter",
+        "iat_rva": 2187960,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1470
+    },
+    {
+        "function": "AreFileApisANSI",
+        "iat_rva": 2187968,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 38
+    },
+    {
+        "function": "CreateFile2",
+        "iat_rva": 2187976,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 226
+    },
+    {
+        "function": "SetFileInformationByHandle",
+        "iat_rva": 2187984,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1388
+    },
+    {
+        "function": "GetFullPathNameW",
+        "iat_rva": 2187992,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 651
+    },
+    {
+        "function": "GetFileAttributesExW",
+        "iat_rva": 2188000,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 627
+    },
+    {
+        "function": "FindNextFileW",
+        "iat_rva": 2188008,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 442
+    },
+    {
+        "function": "FindFirstFileExW",
+        "iat_rva": 2188016,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 425
+    },
+    {
+        "function": "FindFirstFileW",
+        "iat_rva": 2188024,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 430
+    },
+    {
+        "function": "CreateDirectoryW",
+        "iat_rva": 2188032,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 218
+    },
+    {
+        "function": "GetCurrentDirectoryW",
+        "iat_rva": 2188040,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 576
+    },
+    {
+        "function": "SleepConditionVariableSRW",
+        "iat_rva": 2188048,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1488
+    },
+    {
+        "function": "AcquireSRWLockExclusive",
+        "iat_rva": 2188056,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1
+    },
+    {
+        "function": "ReleaseSRWLockExclusive",
+        "iat_rva": 2188064,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 1264
+    },
+    {
+        "function": "DeviceIoControl",
+        "iat_rva": 2188072,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 327
+    },
+    {
+        "function": "GetLocaleInfoEx",
+        "iat_rva": 2188080,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 662
+    },
+    {
+        "function": "FormatMessageA",
+        "iat_rva": 2188088,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 469
+    },
+    {
+        "function": "GetFileInformationByHandleEx",
+        "iat_rva": 2188096,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 633
+    },
+    {
+        "function": "GetStartupInfoW",
+        "iat_rva": 2188104,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 775
+    },
+    {
+        "function": "GetSystemTimeAsFileTime",
+        "iat_rva": 2188112,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 800
+    },
+    {
+        "function": "InitializeSListHead",
+        "iat_rva": 2188120,
+        "is_ordinal": false,
+        "module": "kernel32.dll",
+        "ordinal": 928
+    },
+    {
+        "function": "?good@ios_base@std@@QEBA_NXZ",
+        "iat_rva": 2188136,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 966
+    },
+    {
+        "function": "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z",
+        "iat_rva": 2188144,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 263
+    },
+    {
+        "function": "??Bios_base@std@@QEBA_NXZ",
+        "iat_rva": 2188152,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 307
+    },
+    {
+        "function": "?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z",
+        "iat_rva": 2188160,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1166
+    },
+    {
+        "function": "??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+        "iat_rva": 2188168,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 132
+    },
+    {
+        "function": "?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z",
+        "iat_rva": 2188176,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1015
+    },
+    {
+        "function": "?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ",
+        "iat_rva": 2188184,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1278
+    },
+    {
+        "function": "?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z",
+        "iat_rva": 2188192,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1206
+    },
+    {
+        "function": "?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z",
+        "iat_rva": 2188200,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1351
+    },
+    {
+        "function": "?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z",
+        "iat_rva": 2188208,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1348
+    },
+    {
+        "function": "?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ",
+        "iat_rva": 2188216,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1308
+    },
+    {
+        "function": "_Mtx_lock",
+        "iat_rva": 2188224,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1414
+    },
+    {
+        "function": "_Mtx_unlock",
+        "iat_rva": 2188232,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1418
+    },
+    {
+        "function": "??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+        "iat_rva": 2188240,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 135
+    },
+    {
+        "function": "?always_noconv@codecvt_base@std@@QEBA_NXZ",
+        "iat_rva": 2188248,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 670
+    },
+    {
+        "function": "?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ",
+        "iat_rva": 2188256,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1238
+    },
+    {
+        "function": "?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ",
+        "iat_rva": 2188264,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 640
+    },
+    {
+        "function": "?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ",
+        "iat_rva": 2188272,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 553
+    },
+    {
+        "function": "??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+        "iat_rva": 2188280,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 138
+    },
+    {
+        "function": "??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+        "iat_rva": 2188288,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 126
+    },
+    {
+        "function": "?_Xbad_alloc@std@@YAXXZ",
+        "iat_rva": 2188296,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 652
+    },
+    {
+        "function": "_Xtime_get_ticks",
+        "iat_rva": 2188304,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1485
+    },
+    {
+        "function": "_Query_perf_frequency",
+        "iat_rva": 2188312,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1426
+    },
+    {
+        "function": "?_Throw_Cpp_error@std@@YAXH@Z",
+        "iat_rva": 2188320,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 630
+    },
+    {
+        "function": "?_Xlength_error@std@@YAXPEBD@Z",
+        "iat_rva": 2188328,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 655
+    },
+    {
+        "function": "_Cnd_do_broadcast_at_thread_exit",
+        "iat_rva": 2188336,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1359
+    },
+    {
+        "function": "_Query_perf_counter",
+        "iat_rva": 2188344,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1425
+    },
+    {
+        "function": "_Thrd_detach",
+        "iat_rva": 2188352,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1457
+    },
+    {
+        "function": "?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A",
+        "iat_rva": 2188360,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 693
+    },
+    {
+        "function": "?cin@std@@3V?$basic_istream@DU?$char_traits@D@std@@@1@A",
+        "iat_rva": 2188368,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 676
+    },
+    {
+        "function": "?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A",
+        "iat_rva": 2188376,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 675
+    },
+    {
+        "function": "?_Random_device@std@@YAIXZ",
+        "iat_rva": 2188384,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 606
+    },
+    {
+        "function": "?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z",
+        "iat_rva": 2188392,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 679
+    },
+    {
+        "function": "?_Xbad_function_call@std@@YAXXZ",
+        "iat_rva": 2188400,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 653
+    },
+    {
+        "function": "_Thrd_id",
+        "iat_rva": 2188408,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1461
+    },
+    {
+        "function": "_Thrd_join",
+        "iat_rva": 2188416,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1462
+    },
+    {
+        "function": "??1_Lockit@std@@QEAA@XZ",
+        "iat_rva": 2188424,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 166
+    },
+    {
+        "function": "??0_Lockit@std@@QEAA@H@Z",
+        "iat_rva": 2188432,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 110
+    },
+    {
+        "function": "?uncaught_exceptions@std@@YAHXZ",
+        "iat_rva": 2188440,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1312
+    },
+    {
+        "function": "?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ",
+        "iat_rva": 2188448,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 470
+    },
+    {
+        "function": "?_Xinvalid_argument@std@@YAXPEBD@Z",
+        "iat_rva": 2188456,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 654
+    },
+    {
+        "function": "?_Id_cnt@id@locale@std@@0HA",
+        "iat_rva": 2188464,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 495
+    },
+    {
+        "function": "?_Xout_of_range@std@@YAXPEBD@Z",
+        "iat_rva": 2188472,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 656
+    },
+    {
+        "function": "?_Winerror_map@std@@YAHH@Z",
+        "iat_rva": 2188480,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 646
+    },
+    {
+        "function": "?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A",
+        "iat_rva": 2188488,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 970
+    },
+    {
+        "function": "?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z",
+        "iat_rva": 2188496,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 428
+    },
+    {
+        "function": "?_Syserror_map@std@@YAPEBDH@Z",
+        "iat_rva": 2188504,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 628
+    },
+    {
+        "function": "?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ",
+        "iat_rva": 2188512,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 961
+    },
+    {
+        "function": "??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ",
+        "iat_rva": 2188520,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 48
+    },
+    {
+        "function": "?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ",
+        "iat_rva": 2188528,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1174
+    },
+    {
+        "function": "?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ",
+        "iat_rva": 2188536,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1232
+    },
+    {
+        "function": "?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ",
+        "iat_rva": 2188544,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1241
+    },
+    {
+        "function": "?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ",
+        "iat_rva": 2188552,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 502
+    },
+    {
+        "function": "??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z",
+        "iat_rva": 2188560,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 27
+    },
+    {
+        "function": "?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA_N_N@Z",
+        "iat_rva": 2188568,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 538
+    },
+    {
+        "function": "??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z",
+        "iat_rva": 2188576,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 38
+    },
+    {
+        "function": "?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ",
+        "iat_rva": 2188584,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 581
+    },
+    {
+        "function": "?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z",
+        "iat_rva": 2188592,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1320
+    },
+    {
+        "function": "?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z",
+        "iat_rva": 2188600,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 434
+    },
+    {
+        "function": "?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z",
+        "iat_rva": 2188608,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1222
+    },
+    {
+        "function": "?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ",
+        "iat_rva": 2188616,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1160
+    },
+    {
+        "function": "?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z",
+        "iat_rva": 2188624,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1333
+    },
+    {
+        "function": "??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ",
+        "iat_rva": 2188632,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 13
+    },
+    {
+        "function": "?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z",
+        "iat_rva": 2188640,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1247
+    },
+    {
+        "function": "?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z",
+        "iat_rva": 2188648,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1250
+    },
+    {
+        "function": "?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z",
+        "iat_rva": 2188656,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1122
+    },
+    {
+        "function": "?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ",
+        "iat_rva": 2188664,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 873
+    },
+    {
+        "function": "?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z",
+        "iat_rva": 2188672,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1019
+    },
+    {
+        "function": "?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z",
+        "iat_rva": 2188680,
+        "is_ordinal": false,
+        "module": "msvcp140.dll",
+        "ordinal": 1076
+    },
+    {
+        "function": "ShellExecuteExW",
+        "iat_rva": 2188696,
+        "is_ordinal": false,
+        "module": "shell32.dll",
+        "ordinal": 577
+    },
+    {
+        "function": "ShellExecuteW",
+        "iat_rva": 2188704,
+        "is_ordinal": false,
+        "module": "shell32.dll",
+        "ordinal": 578
+    },
+    {
+        "function": "GetWindowThreadProcessId",
+        "iat_rva": 2188720,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2017
+    },
+    {
+        "function": "DefWindowProcW",
+        "iat_rva": 2188728,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1677
+    },
+    {
+        "function": "GetWindowRect",
+        "iat_rva": 2188736,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2008
+    },
+    {
+        "function": "DestroyWindow",
+        "iat_rva": 2188744,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1690
+    },
+    {
+        "function": "IsWindowVisible",
+        "iat_rva": 2188752,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2100
+    },
+    {
+        "function": "SetActiveWindow",
+        "iat_rva": 2188760,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2302
+    },
+    {
+        "function": "CreateWindowExW",
+        "iat_rva": 2188768,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1628
+    },
+    {
+        "function": "SendMessageW",
+        "iat_rva": 2188776,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2299
+    },
+    {
+        "function": "GetSystemMetrics",
+        "iat_rva": 2188784,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1964
+    },
+    {
+        "function": "UnregisterClassW",
+        "iat_rva": 2188792,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2462
+    },
+    {
+        "function": "RegisterClassExW",
+        "iat_rva": 2188800,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2242
+    },
+    {
+        "function": "ShowWindow",
+        "iat_rva": 2188808,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2420
+    },
+    {
+        "function": "GetWindowLongW",
+        "iat_rva": 2188816,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1998
+    },
+    {
+        "function": "CloseClipboard",
+        "iat_rva": 2188824,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1589
+    },
+    {
+        "function": "PeekMessageW",
+        "iat_rva": 2188832,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2192
+    },
+    {
+        "function": "SetWindowDisplayAffinity",
+        "iat_rva": 2188840,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2394
+    },
+    {
+        "function": "EnumWindows",
+        "iat_rva": 2188848,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1774
+    },
+    {
+        "function": "SetLayeredWindowAttributes",
+        "iat_rva": 2188856,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2337
+    },
+    {
+        "function": "SetFocus",
+        "iat_rva": 2188864,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2329
+    },
+    {
+        "function": "BringWindowToTop",
+        "iat_rva": 2188872,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1524
+    },
+    {
+        "function": "TranslateMessage",
+        "iat_rva": 2188880,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2452
+    },
+    {
+        "function": "SetWindowLongW",
+        "iat_rva": 2188888,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2399
+    },
+    {
+        "function": "PostQuitMessage",
+        "iat_rva": 2188896,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2197
+    },
+    {
+        "function": "GetDesktopWindow",
+        "iat_rva": 2188904,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1834
+    },
+    {
+        "function": "FindWindowA",
+        "iat_rva": 2188912,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1781
+    },
+    {
+        "function": "UpdateWindow",
+        "iat_rva": 2188920,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2477
+    },
+    {
+        "function": "SetForegroundWindow",
+        "iat_rva": 2188928,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2331
+    },
+    {
+        "function": "LoadImageW",
+        "iat_rva": 2188936,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2115
+    },
+    {
+        "function": "IsIconic",
+        "iat_rva": 2188944,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2077
+    },
+    {
+        "function": "DispatchMessageW",
+        "iat_rva": 2188952,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1698
+    },
+    {
+        "function": "GetKeyState",
+        "iat_rva": 2188960,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1869
+    },
+    {
+        "function": "EnableWindow",
+        "iat_rva": 2188968,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1747
+    },
+    {
+        "function": "IsWindow",
+        "iat_rva": 2188976,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2094
+    },
+    {
+        "function": "GetMessageExtraInfo",
+        "iat_rva": 2188984,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1901
+    },
+    {
+        "function": "SendInput",
+        "iat_rva": 2188992,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2293
+    },
+    {
+        "function": "SetWindowPos",
+        "iat_rva": 2189000,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2401
+    },
+    {
+        "function": "SetWindowLongPtrW",
+        "iat_rva": 2189008,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2398
+    },
+    {
+        "function": "GetWindowLongPtrW",
+        "iat_rva": 2189016,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1997
+    },
+    {
+        "function": "MessageBoxA",
+        "iat_rva": 2189024,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2154
+    },
+    {
+        "function": "ScreenToClient",
+        "iat_rva": 2189032,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2284
+    },
+    {
+        "function": "GetCapture",
+        "iat_rva": 2189040,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1801
+    },
+    {
+        "function": "ClientToScreen",
+        "iat_rva": 2189048,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1587
+    },
+    {
+        "function": "TrackMouseEvent",
+        "iat_rva": 2189056,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2445
+    },
+    {
+        "function": "GetKeyboardLayout",
+        "iat_rva": 2189064,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1870
+    },
+    {
+        "function": "GetForegroundWindow",
+        "iat_rva": 2189072,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1853
+    },
+    {
+        "function": "LoadCursorW",
+        "iat_rva": 2189080,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2111
+    },
+    {
+        "function": "SetCapture",
+        "iat_rva": 2189088,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2303
+    },
+    {
+        "function": "SetCursor",
+        "iat_rva": 2189096,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2314
+    },
+    {
+        "function": "GetClientRect",
+        "iat_rva": 2189104,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1815
+    },
+    {
+        "function": "EmptyClipboard",
+        "iat_rva": 2189112,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1740
+    },
+    {
+        "function": "GetClipboardData",
+        "iat_rva": 2189120,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1818
+    },
+    {
+        "function": "SetClipboardData",
+        "iat_rva": 2189128,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2311
+    },
+    {
+        "function": "GetAsyncKeyState",
+        "iat_rva": 2189136,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1797
+    },
+    {
+        "function": "GetCursorPos",
+        "iat_rva": 2189144,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 1829
+    },
+    {
+        "function": "SetCursorPos",
+        "iat_rva": 2189152,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2316
+    },
+    {
+        "function": "ReleaseCapture",
+        "iat_rva": 2189160,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2271
+    },
+    {
+        "function": "IsWindowUnicode",
+        "iat_rva": 2189168,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2099
+    },
+    {
+        "function": "OpenClipboard",
+        "iat_rva": 2189176,
+        "is_ordinal": false,
+        "module": "user32.dll",
+        "ordinal": 2178
+    },
+    {
+        "function": "memset",
+        "iat_rva": 2189192,
+        "is_ordinal": false,
+        "module": "vcruntime140.dll",
+        "ordinal": 63
+    },
+    {
+        "function": "__C_specific_handler",
+        "iat_rva": 2189200,
+        "is_ordinal": false,
+        "module": "vcruntime140.dll",
+        "ordinal": 9
+    },
+    {
+        "function": "__current_exception",
+        "iat_rva": 2189208,
+        "is_ordinal": false,
+        "module": "vcruntime140.dll",
+        "ordinal": 28
+    },
+    {
+        "function": "__current_exception_context",
+        "iat_rva": 2189216,
+        "is_ordinal": false,
+        "module": "vcruntime140.dll",
+        "ordinal": 29
+    },
+    {
+        "function": "_CxxThrowException",
+        "iat_rva": 2189224,
+        "is_ordinal": false,
+        "module": "vcruntime140.dll",
+        "ordinal": 2
+    },
+    {
+        "function": "memchr",
+        "iat_rva": 2189232,
+        "is_ordinal": false,
+        "module": "vcruntime140.dll",
+        "ordinal": 59
+    },
+    {
+        "function": "memmove",
+        "iat_rva": 2189240,
+        "is_ordinal": false,
+        "module": "vcruntime140.dll",
+        "ordinal": 62
+    },
+    {
+        "function": "strrchr",
+        "iat_rva": 2189248,
+        "is_ordinal": false,
+        "module": "vcruntime140.dll",
+        "ordinal": 66
+    },
+    {
+        "function": "wcsstr",
+        "iat_rva": 2189256,
+        "is_ordinal": false,
+        "module": "vcruntime140.dll",
+        "ordinal": 71
+    },
+    {
+        "function": "strchr",
+        "iat_rva": 2189264,
+        "is_ordinal": false,
+        "module": "vcruntime140.dll",
+        "ordinal": 65
+    },
+    {
+        "function": "strstr",
+        "iat_rva": 2189272,
+        "is_ordinal": false,
+        "module": "vcruntime140.dll",
+        "ordinal": 67
+    },
+    {
+        "function": "__std_exception_copy",
+        "iat_rva": 2189280,
+        "is_ordinal": false,
+        "module": "vcruntime140.dll",
+        "ordinal": 34
+    },
+    {
+        "function": "__std_exception_destroy",
+        "iat_rva": 2189288,
+        "is_ordinal": false,
+        "module": "vcruntime140.dll",
+        "ordinal": 35
+    },
+    {
+        "function": "__std_terminate",
+        "iat_rva": 2189296,
+        "is_ordinal": false,
+        "module": "vcruntime140.dll",
+        "ordinal": 36
+    },
+    {
+        "function": "memcmp",
+        "iat_rva": 2189304,
+        "is_ordinal": false,
+        "module": "vcruntime140.dll",
+        "ordinal": 60
+    },
+    {
+        "function": "memcpy",
+        "iat_rva": 2189312,
+        "is_ordinal": false,
+        "module": "vcruntime140.dll",
+        "ordinal": 61
+    },
+    {
+        "function": "__CxxFrameHandler4",
+        "iat_rva": 2189328,
+        "is_ordinal": false,
+        "module": "vcruntime140_1.dll",
+        "ordinal": 1
+    },
+    {
+        "function": "timeBeginPeriod",
+        "iat_rva": 2189344,
+        "is_ordinal": false,
+        "module": "winmm.dll",
+        "ordinal": 137
+    },
+    {
+        "function": "PlaySoundA",
+        "iat_rva": 2189352,
+        "is_ordinal": false,
+        "module": "winmm.dll",
+        "ordinal": 11
+    },
+    {
+        "function": "mciSendStringA",
+        "iat_rva": 2189360,
+        "is_ordinal": false,
+        "module": "winmm.dll",
+        "ordinal": 46
+    },
+    {
+        "function": "timeEndPeriod",
+        "iat_rva": 2189368,
+        "is_ordinal": false,
+        "module": "winmm.dll",
+        "ordinal": 138
+    },
+    {
+        "function": "XInputGetState",
+        "iat_rva": 2189384,
+        "is_ordinal": true,
+        "module": "xinput1_4.dll",
+        "ordinal": 2
+    },
+    {
+        "function": "strtoul",
+        "iat_rva": 2189400,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2412
+    },
+    {
+        "function": "atof",
+        "iat_rva": 2189408,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2059
+    },
+    {
+        "function": "strtod",
+        "iat_rva": 2189416,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2404
+    },
+    {
+        "function": "strtoll",
+        "iat_rva": 2189424,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2411
+    },
+    {
+        "function": "atoi",
+        "iat_rva": 2189432,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2060
+    },
+    {
+        "function": "strtof",
+        "iat_rva": 2189440,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2405
+    },
+    {
+        "function": "strtol",
+        "iat_rva": 2189448,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2409
+    },
+    {
+        "function": "strtoull",
+        "iat_rva": 2189456,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2413
+    },
+    {
+        "function": "_lock_file",
+        "iat_rva": 2189472,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 505
+    },
+    {
+        "function": "_unlock_file",
+        "iat_rva": 2189480,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 1888
+    },
+    {
+        "function": "_set_new_mode",
+        "iat_rva": 2189496,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 1780
+    },
+    {
+        "function": "malloc",
+        "iat_rva": 2189504,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2297
+    },
+    {
+        "function": "free",
+        "iat_rva": 2189512,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2212
+    },
+    {
+        "function": "_callnewh",
+        "iat_rva": 2189520,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 173
+    },
+    {
+        "function": "___lc_codepage_func",
+        "iat_rva": 2189536,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 51
+    },
+    {
+        "function": "localeconv",
+        "iat_rva": 2189544,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2276
+    },
+    {
+        "function": "_configthreadlocale",
+        "iat_rva": 2189552,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 190
+    },
+    {
+        "function": "lroundf",
+        "iat_rva": 2189568,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2295
+    },
+    {
+        "function": "_dsign",
+        "iat_rva": 2189576,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 219
+    },
+    {
+        "function": "acosf",
+        "iat_rva": 2189584,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2041
+    },
+    {
+        "function": "log",
+        "iat_rva": 2189592,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2277
+    },
+    {
+        "function": "roundf",
+        "iat_rva": 2189600,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2360
+    },
+    {
+        "function": "atan2f",
+        "iat_rva": 2189608,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2054
+    },
+    {
+        "function": "fmodf",
+        "iat_rva": 2189616,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2203
+    },
+    {
+        "function": "logf",
+        "iat_rva": 2189624,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2289
+    },
+    {
+        "function": "floorf",
+        "iat_rva": 2189632,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2192
+    },
+    {
+        "function": "expf",
+        "iat_rva": 2189640,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2165
+    },
+    {
+        "function": "cosf",
+        "iat_rva": 2189648,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2126
+    },
+    {
+        "function": "ceilf",
+        "iat_rva": 2189656,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2103
+    },
+    {
+        "function": "sqrtf",
+        "iat_rva": 2189664,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2380
+    },
+    {
+        "function": "_fdclass",
+        "iat_rva": 2189672,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 249
+    },
+    {
+        "function": "sinf",
+        "iat_rva": 2189680,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2376
+    },
+    {
+        "function": "powf",
+        "iat_rva": 2189688,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2334
+    },
+    {
+        "function": "atanf",
+        "iat_rva": 2189696,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2055
+    },
+    {
+        "function": "pow",
+        "iat_rva": 2189704,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2333
+    },
+    {
+        "function": "__setusermatherr",
+        "iat_rva": 2189712,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 100
+    },
+    {
+        "function": "_crt_atexit",
+        "iat_rva": 2189728,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 203
+    },
+    {
+        "function": "_cexit",
+        "iat_rva": 2189736,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 175
+    },
+    {
+        "function": "_seh_filter_exe",
+        "iat_rva": 2189744,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 1769
+    },
+    {
+        "function": "_set_app_type",
+        "iat_rva": 2189752,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 1772
+    },
+    {
+        "function": "_register_onexit_function",
+        "iat_rva": 2189760,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 1755
+    },
+    {
+        "function": "_get_narrow_winmain_command_line",
+        "iat_rva": 2189768,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 325
+    },
+    {
+        "function": "_initterm",
+        "iat_rva": 2189776,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 377
+    },
+    {
+        "function": "_initterm_e",
+        "iat_rva": 2189784,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 378
+    },
+    {
+        "function": "_exit",
+        "iat_rva": 2189792,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 242
+    },
+    {
+        "function": "terminate",
+        "iat_rva": 2189800,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2421
+    },
+    {
+        "function": "_c_exit",
+        "iat_rva": 2189808,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 171
+    },
+    {
+        "function": "_register_thread_local_exe_atexit_callback",
+        "iat_rva": 2189816,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 1756
+    },
+    {
+        "function": "_initialize_onexit_table",
+        "iat_rva": 2189824,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 375
+    },
+    {
+        "function": "_initialize_narrow_environment",
+        "iat_rva": 2189832,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 374
+    },
+    {
+        "function": "_configure_narrow_argv",
+        "iat_rva": 2189840,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 191
+    },
+    {
+        "function": "_beginthreadex",
+        "iat_rva": 2189848,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 167
+    },
+    {
+        "function": "exit",
+        "iat_rva": 2189856,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2160
+    },
+    {
+        "function": "abort",
+        "iat_rva": 2189864,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2038
+    },
+    {
+        "function": "_errno",
+        "iat_rva": 2189872,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 231
+    },
+    {
+        "function": "__stdio_common_vfprintf",
+        "iat_rva": 2189888,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 108
+    },
+    {
+        "function": "__p__commode",
+        "iat_rva": 2189896,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 86
+    },
+    {
+        "function": "_set_fmode",
+        "iat_rva": 2189904,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 1777
+    },
+    {
+        "function": "ftell",
+        "iat_rva": 2189912,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2218
+    },
+    {
+        "function": "fflush",
+        "iat_rva": 2189920,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2185
+    },
+    {
+        "function": "__stdio_common_vsprintf_s",
+        "iat_rva": 2189928,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 120
+    },
+    {
+        "function": "fclose",
+        "iat_rva": 2189936,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2170
+    },
+    {
+        "function": "_get_stream_buffer_pointers",
+        "iat_rva": 2189944,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 330
+    },
+    {
+        "function": "_fseeki64",
+        "iat_rva": 2189952,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 294
+    },
+    {
+        "function": "fsetpos",
+        "iat_rva": 2189960,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2217
+    },
+    {
+        "function": "ungetc",
+        "iat_rva": 2189968,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2438
+    },
+    {
+        "function": "setvbuf",
+        "iat_rva": 2189976,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2373
+    },
+    {
+        "function": "fgetpos",
+        "iat_rva": 2189984,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2187
+    },
+    {
+        "function": "__acrt_iob_func",
+        "iat_rva": 2189992,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 56
+    },
+    {
+        "function": "fgetc",
+        "iat_rva": 2190000,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2186
+    },
+    {
+        "function": "fseek",
+        "iat_rva": 2190008,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2216
+    },
+    {
+        "function": "fwrite",
+        "iat_rva": 2190016,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2219
+    },
+    {
+        "function": "freopen",
+        "iat_rva": 2190024,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2213
+    },
+    {
+        "function": "__stdio_common_vsscanf",
+        "iat_rva": 2190032,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 121
+    },
+    {
+        "function": "fread",
+        "iat_rva": 2190040,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2210
+    },
+    {
+        "function": "__stdio_common_vsprintf",
+        "iat_rva": 2190048,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 118
+    },
+    {
+        "function": "_wfopen",
+        "iat_rva": 2190056,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 1970
+    },
+    {
+        "function": "fputc",
+        "iat_rva": 2190064,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2206
+    },
+    {
+        "function": "towlower",
+        "iat_rva": 2190080,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2432
+    },
+    {
+        "function": "isspace",
+        "iat_rva": 2190088,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2245
+    },
+    {
+        "function": "strncpy_s",
+        "iat_rva": 2190096,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2398
+    },
+    {
+        "function": "tolower",
+        "iat_rva": 2190104,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2429
+    },
+    {
+        "function": "isdigit",
+        "iat_rva": 2190112,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2239
+    },
+    {
+        "function": "wcsncpy_s",
+        "iat_rva": 2190120,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2456
+    },
+    {
+        "function": "_wcsicmp",
+        "iat_rva": 2190128,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 1906
+    },
+    {
+        "function": "_stricmp",
+        "iat_rva": 2190136,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 1816
+    },
+    {
+        "function": "strcpy_s",
+        "iat_rva": 2190144,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2388
+    },
+    {
+        "function": "toupper",
+        "iat_rva": 2190152,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2430
+    },
+    {
+        "function": "strcmp",
+        "iat_rva": 2190160,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2385
+    },
+    {
+        "function": "strlen",
+        "iat_rva": 2190168,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2393
+    },
+    {
+        "function": "strncmp",
+        "iat_rva": 2190176,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2396
+    },
+    {
+        "function": "strncpy",
+        "iat_rva": 2190184,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2397
+    },
+    {
+        "function": "wcslen",
+        "iat_rva": 2190192,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2451
+    },
+    {
+        "function": "qsort",
+        "iat_rva": 2190208,
+        "is_ordinal": false,
+        "module": "ucrtbase.dll",
+        "ordinal": 2340
+    },
+    {
+        "function": "BCryptHash",
+        "iat_rva": 2190224,
+        "is_ordinal": false,
+        "module": "bcrypt.dll",
+        "ordinal": 37
+    },
+    {
+        "function": "BCryptCloseAlgorithmProvider",
+        "iat_rva": 2190232,
+        "is_ordinal": false,
+        "module": "bcrypt.dll",
+        "ordinal": 3
+    },
+    {
+        "function": "BCryptOpenAlgorithmProvider",
+        "iat_rva": 2190240,
+        "is_ordinal": false,
+        "module": "bcrypt.dll",
+        "ordinal": 42
+    },
+    {
+        "function": "BCryptGetProperty",
+        "iat_rva": 2190248,
+        "is_ordinal": false,
+        "module": "bcrypt.dll",
+        "ordinal": 36
+    },
+    {
+        "function": "D3D11CreateDeviceAndSwapChain",
+        "iat_rva": 2190264,
+        "is_ordinal": false,
+        "module": "d3d11.dll",
+        "ordinal": 23
+    },
+    {
+        "function": "D3D11CreateDevice",
+        "iat_rva": 2190272,
+        "is_ordinal": false,
+        "module": "d3d11.dll",
+        "ordinal": 22
+    },
+    {
+        "function": "DwmSetWindowAttribute",
+        "iat_rva": 2190288,
+        "is_ordinal": false,
+        "module": "dwmapi.dll",
+        "ordinal": 213
+    },
+    {
+        "function": "DwmExtendFrameIntoClientArea",
+        "iat_rva": 2190296,
+        "is_ordinal": false,
+        "module": "dwmapi.dll",
+        "ordinal": 121
+    },
+    {
+        "function": "DwmEnableBlurBehindWindow",
+        "iat_rva": 2190304,
+        "is_ordinal": false,
+        "module": "dwmapi.dll",
+        "ordinal": 119
+    },
+    {
+        "function": "CoCreateInstance",
+        "iat_rva": 2190320,
+        "is_ordinal": false,
+        "module": "ole32.dll",
+        "ordinal": 874
+    }
+]
